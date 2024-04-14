@@ -1,0 +1,46 @@
+
+
+Take Screen Short
+
+WebDriver driver=new ChromeDriver();
+Driver.get("https://demo.nopcommerce.com");
+Driver.manage().window().mazimize();
+
+Full page
+-----------
+Takescreenshot ts=(takescreenshot)driver;
+
+File src=getScteenshotAs(outPutType.file);
+
+File trg=new file(.\\folder\\home.png")
+
+FileUtils.CopyFile(Src.trg);
+
+ScreenShot of section :
+-------------------------
+Webelement section =driver.findelement (by.xpath("---");
+File src =section.getScreenshotAs(outputType.file);
+File trg=file (.\\flolderName\\sec.png);       // note slash \\ for Mac comp
+FileUtils.copyFile(src.trg);
+
+---------------------------
+
+Random method 
+-----------------
+Public void (){
+
+Random r=new Random();
+if(r.nextint()!=0)
+{
+	I=I+1;
+}
+
+File src=driver.getScreenshotAs(outPutType.file);
+File dest=new File(".//foloderNmae//pic"+I+".png");   //note // shush for window computer
+FileUtils.copyFile(src.dest);
+
+
+
+
+
+
